@@ -8,3 +8,7 @@ function increment() {
     count = count + 1
     countLog.innerText = count
 }
+
+function save() {
+    console.log(count)
+}
