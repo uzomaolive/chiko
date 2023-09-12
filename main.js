@@ -15,6 +15,10 @@ function save() {
     saveEl.textContent += countStr
         // Rendered the variable in the saveEl using innerText
         //updated the innerText with textContent
+    countEl.textContent = 0
+    count =0
+
+    //this returns the value back to zero when the save button is clicked
 
     console.log(count)
 }
