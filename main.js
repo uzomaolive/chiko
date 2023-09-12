@@ -12,8 +12,9 @@ function increment() {
 function save() {
     let countStr = count + " - "
     // Created a variable that contains both the count and the dash separator.
-    saveEl.innerText += countStr
+    saveEl.textContent += countStr
         // Rendered the variable in the saveEl using innerText
+        //updated the innerText with textContent
 
     console.log(count)
 }
